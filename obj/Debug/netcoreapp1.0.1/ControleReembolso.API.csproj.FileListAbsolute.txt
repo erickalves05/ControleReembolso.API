@@ -1,0 +1,16 @@
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.deps.json
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.runtimeconfig.json
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.runtimeconfig.dev.json
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.dll
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.pdb
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\obj\Debug\netcoreapp1.0.1\ControleReembolso.API.AssemblyInfo.cs
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\obj\Debug\netcoreapp1.0.1\ControleReembolso.API.dll
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\obj\Debug\netcoreapp1.0.1\ControleReembolso.API.pdb
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.deps.json
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.runtimeconfig.json
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.runtimeconfig.dev.json
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\obj\Debug\netcoreapp1.0.1\ControleReembolso.API.AssemblyInfo.cs
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\obj\Debug\netcoreapp1.0.1\ControleReembolso.API.dll
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\obj\Debug\netcoreapp1.0.1\ControleReembolso.API.pdb
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.dll
+E:\Desenvolvimento\Projetos\Controle Reembolso\VS Code API\ControleReembolso.API\bin\Debug\netcoreapp1.0.1\ControleReembolso.API.pdb

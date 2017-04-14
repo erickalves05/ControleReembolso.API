@@ -1,0 +1,8 @@
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0\ControleReembolso.API.deps.json
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0\ControleReembolso.API.runtimeconfig.json
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0\ControleReembolso.API.runtimeconfig.dev.json
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0\ControleReembolso.API.dll
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\bin\Debug\netcoreapp1.0\ControleReembolso.API.pdb
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\obj\Debug\netcoreapp1.0\ControleReembolso.API.AssemblyInfo.cs
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\obj\Debug\netcoreapp1.0\ControleReembolso.API.dll
+e:\Desenvolvimento\Projetos\Controle Reembolso\ControleReembolso.API\obj\Debug\netcoreapp1.0\ControleReembolso.API.pdb
