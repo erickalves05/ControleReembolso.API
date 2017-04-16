@@ -20,11 +20,12 @@ namespace ControleReembolso.API.Nucleo.Dominio
                         cmd.Connection = conn;
 
                         // Insert some data
-                        cmd.CommandText = "INSERT INTO despesas (cliente_id, tipo, valor) VALUES (@ClienteId, @Tipo, @Valor)";
+                        cmd.CommandText = "INSERT INTO despesas (cliente_id, tipo, valor, data_criacao) VALUES (@ClienteId, @Tipo, @Valor, @DataCriacao)";
                         
                         cmd.Parameters.AddWithValue("@ClienteId", despesa.Cliente.ClienteId);
                         cmd.Parameters.AddWithValue("@Tipo", Convert.ToInt16(despesa.TipoDespesa));
                         cmd.Parameters.AddWithValue("@Valor", despesa.Valor);
+                        cmd.Parameters.AddWithValue("@DataCriacao", despesa.DataCriacao);
                         
                         _linhasAfetadas = cmd.ExecuteNonQuery();
                     }

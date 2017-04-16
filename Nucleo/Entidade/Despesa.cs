@@ -8,6 +8,6 @@ namespace ControleReembolso.API.Nucleo.Entidade
         public Entidade.Cliente Cliente { get; set; }
         public Enums.TipoDespesa TipoDespesa { get; set; }
         public decimal Valor { get; set; }
-        public DateTime DataCricao { get; set; }
+        public DateTime DataCriacao { get; set; }
     }
 }
