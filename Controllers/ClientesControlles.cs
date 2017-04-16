@@ -1,15 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
 namespace ControleReembolso.API.Controllers
 {
     [Route("api/[controller]")]
     public class Clientes : Controller
     {
+        // [HttpGet("api/clientes")]
         [HttpGet]
+        [Authorize]
         public ActionResult Todos()
         {
             var _clientes = new Nucleo.Dominio.ManterCliente().ObterClientes();
@@ -19,9 +17,10 @@ namespace ControleReembolso.API.Controllers
                 return Json(_clientes);
             }
 
-            return Json(null);
+            return Json("teste");
         }
         
+        // [HttpGet("api/clientes/{id}")]
         [HttpGet("{id}")]
         public ActionResult Id(int id)
         {

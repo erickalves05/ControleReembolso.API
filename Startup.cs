@@ -1,17 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 
 namespace ControleReembolso.API
 {
-    public class Startup
+    public partial class Startup
     {
         public Startup(IHostingEnvironment env)
         {
@@ -29,7 +25,11 @@ namespace ControleReembolso.API
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            // services.AddMvc();
+
             services.AddMvc();
+    //         .AddAuthorization() // Note - this is on the IMvcBuilder, not the service collection
+    // .AddJsonFormatters(options => options.ContractResolver = new CamelCasePropertyNamesContractResolver());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +37,10 @@ namespace ControleReembolso.API
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+
+            ConfigureAuth(app);
+
+            // app.UseStaticFiles();
 
             app.UseMvc();
         }
