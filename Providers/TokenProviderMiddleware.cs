@@ -99,8 +99,8 @@ namespace SimpleTokenProvider
 
             var response = new
             {
-                access_token = encodedJwt,
-                expires_in = (int)_options.Expiration.TotalSeconds
+                AccessToken = encodedJwt,
+                Expires = (int)_options.Expiration.TotalSeconds
             };
 
             // Serialize and return the response

@@ -62,7 +62,7 @@ namespace ControleReembolso.API
                 AutomaticAuthenticate = true,
                 AutomaticChallenge = true,
                 AuthenticationScheme = "Cookie",
-                CookieName = "access_token",
+                CookieName = "AccessToken",
                 TicketDataFormat = new CustomJwtDataFormat(
                     SecurityAlgorithms.HmacSha256,
                     tokenValidationParameters)
